@@ -5,6 +5,7 @@ import styled from '@emotion/styled'
 
 const Container = styled.div`
   text-align: center;
+  max-width: 860px;
 `
 
 const OuterContainer = styled.div`

@@ -13,12 +13,7 @@ import styled from '@emotion/styled'
 import Header from './header'
 import './layout.css'
 
-const Content = styled.div`
-  margin: 0 auto;
-  max-width: 860px;
-  padding: 0 1.0875rem 1rem;
-  padding-top: 0;
-`
+const Content = styled.div``
 
 const GatsbyLink = styled.a`
   margin-left: 5px;
@@ -32,7 +27,8 @@ const Footer = styled.footer`
 const Section = styled.section`
   background: ${(props) => (props.primary ? 'black' : 'white')};
   color: ${(props) => (props.primary ? 'white' : 'black')};
-  max-width: 100%;
+
+  width: 100%;
 `
 
 const Layout = ({ children }) => (
@@ -52,7 +48,9 @@ const Layout = ({ children }) => (
         <Content>
           <main>
             {children.map((child, index) => (
-              <Section key={index}>{child}</Section>
+              <Section key={index} primary={index % 2 === 0}>
+                {child}
+              </Section>
             ))}
           </main>
           <Footer>

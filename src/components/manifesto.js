@@ -2,14 +2,17 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 const Container = styled.div`
-  text-align: center;
+  margin: 0 auto;
+  padding: 0 1.0875rem 1rem;
+  padding-top: 20px;
+  max-width: 860px;
 `
 
 const Manifesto = () => (
   <Container id="manifesto">
-    <h1>MANIFESTO ESTAMOS JUNTOS</h1>
-
     <div>
+      <h1>MANIFESTO ESTAMOS JUNTOS</h1>
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi
         sit amet sem tincidunt molestie sed mollis enim. Sed congue nulla eget
