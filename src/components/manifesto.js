@@ -1,15 +1,8 @@
 import React from 'react'
-import styled from '@emotion/styled'
-
-const Container = styled.div`
-  margin: 0 auto;
-  padding: 0 1.0875rem 1rem;
-  padding-top: 20px;
-  max-width: 860px;
-`
+import SectionContainer from './section-container'
 
 const Manifesto = () => (
-  <Container id="manifesto">
+  <SectionContainer id="manifesto">
     <div>
       <h1>MANIFESTO ESTAMOS JUNTOS</h1>
 
@@ -71,7 +64,7 @@ const Manifesto = () => (
         Integer in laoreet lacus.
       </p>
     </div>
-  </Container>
+  </SectionContainer>
 )
 
 export default Manifesto

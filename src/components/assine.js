@@ -8,19 +8,32 @@ const Container = styled.div`
   max-width: 860px;
 `
 
-const Form = styled.form`
-  display: flex;
-`
+const Form = styled.form``
 
 const InputContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-
   label {
     flex: none;
     display: block;
     width: 125px;
     font-weight: bold;
+    font-size: 1em;
+  }
+`
+
+const FirstInputContainer = styled.div`
+  display: flex;
+
+  label {
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 10px;
+    display: inline-block;
+    width: 125px;
+    text-align: right;
+  }
+
+  input {
+    margin-left: 10px;
     font-size: 1em;
   }
 `
@@ -34,13 +47,13 @@ const Assine = () => (
         method="post"
         action="https://getform.io/f/83ab3867-aacc-466b-88d2-ae790a98a4d4"
       >
-        <InputContainer>
+        <FirstInputContainer>
           <label>Nome</label>
           <input type="text" name="name" id="name" />
 
           <label>Sobrenome</label>
           <input type="text" name="last_name" id="last_name" />
-        </InputContainer>
+        </FirstInputContainer>
 
         <InputContainer>
           <label>Email</label>
