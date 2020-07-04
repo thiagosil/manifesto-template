@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "@emotion/styled"
 
-const Container = styled.section`
+const Container = styled.div`
   text-align: center;
 `
 

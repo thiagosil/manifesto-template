@@ -29,6 +29,12 @@ const Footer = styled.footer`
   justify-content: center;
 `
 
+const Section = styled.section`
+  background: ${props => props.primary ? "black" : "white"};
+  color: ${props => props.primary ? "white" : "black"};
+  max-width: 100%;
+`
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -44,7 +50,13 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
-          <main>{children}</main>
+          <main>
+            {children.map((child, index) => (
+              <Section key={index}>
+                {child}
+              </Section>
+            ))}
+          </main>
           <Footer>
             <p>
             © {new Date().getFullYear()}, Built with
