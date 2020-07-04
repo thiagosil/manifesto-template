@@ -1,5 +1,5 @@
-import React from "react"
-import styled from "@emotion/styled"
+import React from 'react'
+import styled from '@emotion/styled'
 
 const Container = styled.div`
   text-align: center;
@@ -10,18 +10,11 @@ const SocialShare = () => (
     <h1>Compartilhe</h1>
 
     <div>
-      <p>
-        Facebook
-      </p>
-      <p>
-        Twitter
-      </p>
-      <p>
-        Whatsapp
-      </p>
+      <p>Facebook</p>
+      <p>Twitter</p>
+      <p>Whatsapp</p>
     </div>
   </Container>
 )
 
 export default SocialShare
-

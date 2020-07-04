@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
-import styled from "@emotion/styled"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
+import styled from '@emotion/styled'
 
-import Header from "./header"
-import "./layout.css"
+import Header from './header'
+import './layout.css'
 
 const Content = styled.div`
   margin: 0 auto;
@@ -30,8 +30,8 @@ const Footer = styled.footer`
 `
 
 const Section = styled.section`
-  background: ${props => props.primary ? "black" : "white"};
-  color: ${props => props.primary ? "white" : "black"};
+  background: ${(props) => (props.primary ? 'black' : 'white')};
+  color: ${(props) => (props.primary ? 'white' : 'black')};
   max-width: 100%;
 `
 
@@ -46,21 +46,19 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>
             {children.map((child, index) => (
-              <Section key={index}>
-                {child}
-              </Section>
+              <Section key={index}>{child}</Section>
             ))}
           </main>
           <Footer>
             <p>
-            © {new Date().getFullYear()}, Built with
-            {` `}
+              © {new Date().getFullYear()}, Built with
+              {` `}
             </p>
             <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
           </Footer>

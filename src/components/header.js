@@ -1,7 +1,7 @@
-import { Link } from "gatsby"
-import styled from "@emotion/styled"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby'
+import styled from '@emotion/styled'
+import PropTypes from 'prop-types'
+import React from 'react'
 
 const Content = styled.div`
   max-width: 860px;
@@ -17,7 +17,7 @@ const NavLink = styled(Link)`
   position: relative;
 
   ::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     transform: scaleX(0);
