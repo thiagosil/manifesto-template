@@ -11,32 +11,23 @@ const Manifesto = () => (
 
     <div>
       <p>
-        Somos cidadãs, cidadãos, empresas, organizações e instituições brasileiras e fazemos parte da maioria que defende a vida, a liberdade e a democracia.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nisi sit amet sem tincidunt molestie sed mollis enim. Sed congue nulla eget lacus varius congue. Vestibulum non eros quam. In ut est eros. Suspendisse dui massa, rhoncus in nisl eu, hendrerit porttitor augue. Nam laoreet viverra ullamcorper. Phasellus a dui ac lorem tincidunt tincidunt.
       </p>
       <p>  
-        Somos a maioria e exigimos que nossos representantes e lideranças políticas exerçam com afinco e dignidade seu papel diante da devastadora crise sanitária, política e econômica que atravessa o país.
+        Aliquam pellentesque blandit massa sit amet tincidunt. Integer fringilla leo et volutpat pharetra. Aliquam condimentum nisl id odio auctor, sed cursus quam congue. Suspendisse tincidunt eros urna, non malesuada lectus finibus quis. Phasellus eu mattis augue, ac vehicula eros. Duis aliquet pulvinar mollis. Cras eu lectus magna. Quisque quam enim, porttitor sed posuere in, mollis vel dolor. Sed enim elit, eleifend eget placerat vel, efficitur nec odio. Sed molestie, neque vitae porttitor venenatis, ante est rhoncus diam, id tincidunt turpis lectus non sapien. Aenean malesuada eget orci sit amet placerat. Mauris neque ex, suscipit pretium urna eu, fringilla volutpat erat. Integer rhoncus dolor dui, non iaculis odio dignissim dapibus.
       </p>
       <p>
-        Somos a maioria de brasileiras e brasileiros que apoia a independência dos poderes da República e clamamos que lideranças partidárias, prefeitos, governadores, vereadores, deputados, senadores, procuradores e juízes assumam a responsabilidade de unir a pátria e resgatar nossa identidade como nação.
+        Aliquam tempus pretium suscipit. Etiam in purus massa. Cras suscipit placerat dolor at pulvinar. Pellentesque pellentesque nunc in varius feugiat. Ut eget elementum sem, eu dapibus neque. Praesent dignissim est ut finibus laoreet. Nulla at hendrerit neque, ut sollicitudin tellus. Suspendisse placerat nibh sed felis vehicula hendrerit. Duis bibendum rutrum accumsan. Suspendisse auctor malesuada est. Vivamus commodo scelerisque consequat. Praesent a volutpat diam. Aliquam erat volutpat.
        </p>
     <p>
       Somos mais de dois terços da população do Brasil e invocamos que partidos, seus líderes e candidatos agora deixem de lado projetos individuais de poder em favor de um projeto comum de país.
     </p>
     <p>
-      Somos muitos, estamos juntos, e formamos uma frente ampla e diversa, suprapartidária, que valoriza a política e trabalha para que a sociedade responda de maneira mais madura, consciente e eficaz aos crimes e desmandos de qualquer governo.
+        Morbi sagittis est facilisis diam porttitor, eget sagittis felis convallis. Suspendisse vehicula sagittis lacinia. Duis sed accumsan mi. Praesent vitae urna arcu. Nunc et risus finibus, gravida erat quis, scelerisque ligula. Curabitur ac massa interdum, feugiat tellus ultrices, sollicitudin ante. Nunc ornare neque at ipsum aliquet, in fermentum dolor hendrerit. Curabitur vitae mauris ut mi porttitor tristique et sit amet augue. Donec lectus eros, iaculis at lectus eu, suscipit ornare tellus. Mauris posuere blandit erat, egestas egestas nisl egestas venenatis. Cras molestie id purus vel vehicula.
     </p>
     <p>
-      Como aconteceu no movimento Diretas Já, é hora de deixar de lado velhas disputas em busca do bem comum. Esquerda, centro e direita unidos para defender a lei, a ordem, a política, a ética, as famílias, o voto, a ciência, a verdade, o respeito e a valorização da diversidade, a liberdade de imprensa, a importância da arte, a preservação do meio ambiente e a responsabilidade na economia.
+        Sed eu tortor nec mauris ultricies tincidunt vitae nec leo. Sed cursus metus vel velit efficitur, nec tincidunt lectus pulvinar. Pellentesque lacinia lacinia mauris. Praesent sed purus vel nunc vehicula tincidunt in sit amet velit. Proin nec lacus maximus, pellentesque tortor eu, dignissim lacus. Suspendisse pellentesque dictum eros, ac accumsan justo dignissim lobortis. Nullam ultrices nisl dignissim placerat bibendum. Nam vulputate erat ut lorem condimentum accumsan a a ligula. Nulla vitae hendrerit mi. Quisque aliquam felis vitae urna tristique suscipit. Integer in laoreet lacus.
     </p>
-    <p>
-      Defendemos uma administração pública reverente à Constituição, audaz no combate à corrupção e à desigualdade, verdadeiramente comprometida com a educação, a segurança e a saúde da população. Defendemos um país mais desenvolvido, mais feliz e mais justo.
-    </p>
-    <p>
-        Temos ideias e opiniões diferentes, mas comungamos dos mesmos princípios éticos e democráticos. Queremos combater o ódio e a apatia com afeto, informação, união e esperança.
-      </p>
-      <p>
-        Vamos #JUNTOS sonhar e fazer um Brasil que nos traga de volta a alegria e o orgulho de ser brasileiro.
-      </p>
     </div>
   </Container>
 )
